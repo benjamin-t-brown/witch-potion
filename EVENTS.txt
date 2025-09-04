@@ -1,0 +1,33 @@
+
+`
+!The Wizard,icon_wizard
+>0,choice:
+  +p: An old wizard enters your shop.  He challenges you to a duel, promising a great reward, should you accept.
+  +c: 1|Accept! - If you win: the wizard gives +2 gold.  If you lose, the wizard takes 2 ♀Sp and the Black Cat is displeased.
+  +c: e|Reject.  The wizard leaves. 
+  >1,dice
+  +p: The wizard readies a magic spell!
+
+You think you can win with 3☻.
+  +dice:☻☻☻
+  +pass:3
+  +fail:4
+>e,end
+>3,modify
+  +p: The defeated wizard shells out some gold and leaves.
+  +add: $$
+  +next: e
+>4,modify
+  +p: The smug wizard pockets 2 ♀Sp before leaving.  You feel the Black Cat is displeased.
+  +next: e
+`
+
+Hello, dear witch.  I am your familiar, the Black Cat.  It is from me that you get your magic.  Ensure you keep me satisfied, lest you risk losing my favor.
+
+I have provided you with your magic dice.  Hover over them to see their faces.  There are three kinds of magic: FIRE magics are for fending off your enemies, HEART magics are for affecting people, and HERB magics are for growing your garden.
+
+I am tasking you with running a shop: each day you will harvest magical herbs, mix potions, and deal with the many problems of the nearby villagers.  If you do your job well, you keep my favor and your magic dice; if you fail, then I become displeased.  Should that happen too many times, you will lose your magical privileges.
+
+Run this shop for 90 days and you will have convinced me that you are a competent witch.  Then, and only then, I shall let you keep your magic.
+
+Oh, and you may find myself visiting your shop from time to time.  Please be sure to satisfy my requests.

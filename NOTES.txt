@@ -1,0 +1,81 @@
+Primary Mechanics
+
+- Calendar Days progress time. Time is used for the following:
+  - to grow resources
+  - advance the player's turn
+  - to cap the player's limit of playing the game
+- This is a resource management game.
+  - Primary resources:
+    - Money
+      - Money is gathered by selling owned resources, by fulfilling contracts, or by coming to it in an event.
+    - Reagents
+      - Can only be acquired through buying it from a merchant or through an event.
+    - Herbs
+      - Can be grown in the player's garden.
+    - Potions
+      - Combinations of herbs and reagents that can be sold or used in events.
+  - Secondary Resources
+    - Herb Blueprints
+      - Used to determine what herbs are available to be grown in the player's garden.
+    - Herb Dice
+      - Used to determine what herbs grow as time passes.
+    - Luck Dice
+      - Used to indicate the cat's favor, and affect the outcome of events.
+    - Magic Dice
+      - Used to determine the outcome of magic spells in events.
+    - Garden space and layout
+      - Used to grow herbs, better layouts may provide better odds or variety of yields.
+    - Request List
+      - Lists of request to fulfil for money.  Can include:
+        - Some collection of herbs/reagents.
+        - Completion of some event other event.
+- Events
+  Standard Events
+    - Traveling Merchant: Cheaper Prices for herbs, reagents, blueprints, better to sell to.
+    - Villager has a new contract.
+    - The Black Cat evaluates your progress and gives you a good/bad luck dice.
+  Bad Events
+    - You wake up with a cold and can only harvest half vegetables.
+    - 
+  Fortuitous Events
+    - Finding money/herbs/reagents.
+      - A longtime friend sends you an herb sack.
+      - The local constable grants you funds from the Duke
+      - A local patron gives you a box of reagents he found in his attic.
+    - A genie will grant you a wish: any primary resource, or a random secondary resource.
+  Combat/Persuasion Events
+    - Your garden is accosted by gnomes that steal herbs.
+    - A thief attempts to steal your money.
+    - A burglar attempts to steal your reagents.
+    - A demon accosts you in the night
+    - A long lost rival shows up to fight you
+    - The headmaster of a nearby magical school will sponsor you if you can convince him you are worthy
+  Risk Events
+    - A wizard demands a duel: if you win he upgrades a dice, if you lose you lose favor with the Black Cat.
+    - The Black Cat gives you a request which gives you good luck dice if you fulfill it.
+    - Sudden/Timely request: a person requests some herbs/reagents immediately.  If you have them and grant them, you gain a secondary resource.
+    - A fight breaks out in front of your shop, you can choose a side, or refrain.
+
+- Herbs
+  - Sparkleweed
+  - Feymoss
+  - Brambleberry
+  - Witherwood
+  - Gravebloom
+  - Crimson Flower
+  - Shadowpetal
+
+- Reagents
+  - Stardust
+  - Petrified Dewdrop
+  - Fairy Salt
+  - Sunshine Powder
+
+- Potions
+  - Cold Cure - instantly cures a cold
+  - Dragon's Sweat - antifire
+  - Miasma of Midnight - helps you sleep
+  - Levibalm - Lowers friction 
+  - Tincture of Taste - A liquid that makes any food taste delicious.
+  - Liquid Luck - Grants luck dice.
+  - Shoulder Salt - Removes bad luck.
